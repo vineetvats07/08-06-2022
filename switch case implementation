@@ -1,0 +1,35 @@
+/******************************************************************************
+Student Grade using Switch Case
+*******************************************************************************/
+#include <stdio.h>
+int main()
+{
+    char ch;
+    printf("\nEnter The Grade:");
+    scanf("%c",&ch);
+    switch(ch)
+    {
+        case 'A':
+        {
+        printf("\nExcellent");
+        break;
+        }
+          case 'a':
+        {
+        printf("\nExcellent");
+        break;
+        }
+        case 'B':
+        {
+        printf("\nBad , Keep Trying");
+        break;
+        }
+        case 'b':
+        {
+        printf("\nBad , Keep Trying");
+        break;
+        }
+    }
+
+    return 0;
+}

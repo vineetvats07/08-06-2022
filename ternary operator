@@ -1,0 +1,14 @@
+/******************************************************************************
+Even number or odd using conditional operator 
+
+*******************************************************************************/
+#include <stdio.h>
+int main()
+{
+    int a;
+    printf("\nEnter the number to check even or odd\n");
+    scanf("%d",&a);
+    (a%2==0)?printf("\nnumber is Even"):printf("\nNumber is odd");
+    printf("\nThe address is%d",&a);
+    return 0;
+}

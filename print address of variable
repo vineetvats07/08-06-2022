@@ -1,0 +1,14 @@
+/******************************************************************************
+Print address of a variable 
+
+*******************************************************************************/
+#include <stdio.h>
+
+int main()
+{
+    int num;
+    printf("\n Enter the Value of num");
+    scanf("%d",&num);
+    printf("The address of variable num is %u",&num);
+    return 0;
+}
